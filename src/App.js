@@ -39,8 +39,16 @@ function App() {
             <img src={logoS3} className="App-logoR2L" alt="logo S3" />
             <img src={logoCF} className="App-logoL2R" alt="logo CloudFront" />
         </div>
+        <Component />
     </div>
   );
+}
+
+const Component = () => {
+    const searchParams = new URLSearchParams(document.location.search)
+    return (
+        <div>Query parameter <i>p</i>: {searchParams.get('p')}</div>
+    )
 }
 
 const APIResult = () => {
