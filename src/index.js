@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <App/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
