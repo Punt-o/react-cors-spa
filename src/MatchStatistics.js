@@ -9,7 +9,7 @@ import {
     InstapaperIcon,
 } from 'react-share';
 import './MatchStatistics.css';
-import logo from '/Users/dariodinoto/WebstormProjects/react-cors-spa/src/LOGO_PUNTO.png';
+import logo from './LOGO_PUNTO.png';
 
 const MatchStatistics = () => {
     const [statistics, setStatistics] = useState([]);
